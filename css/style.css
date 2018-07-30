@@ -1,0 +1,262 @@
+.contenedor{
+  margin:auto;
+  width: 1070px;
+}
+
+body{
+  margin: 0;
+}
+
+.menu{
+  font-size: 24px;
+  background:#020129;
+  opacity: 0.95;
+  position: fixed;
+  z-index: 1009999;
+  border-bottom: 0px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 17px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.portada{
+  font-size: 28px;
+  color: white;
+  background-image: url('../images/portada.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Media{
+  margin-left:15px;
+  margin-right: 10px;
+}
+.tripadvisor:hover{
+  box-shadow: 2px 2px 2px 2px green;
+  transition: .2s;
+}
+
+.Facebook:hover{
+  box-shadow: 2px 2px 2px 2px darkblue;
+  transition: .2s;
+}
+
+.Instagram:hover{
+  box-shadow: 2px 2px 2px 2px orange;
+  transition: .2s;
+}
+
+.informative{
+font-family: 'Source sans pro', arial;
+margin-left: 200px;
+margin-right:200px;
+display: inline-block;
+position: relative;
+bottom: 450px;
+line-height: 1.5em;
+text-align: justify;
+}
+
+
+.menu li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 160px;
+}
+
+.menu ul{
+  margin: 0;
+}
+
+.menu a{
+  color: white;
+  font-family: 'Kaushan Script', arial;
+  text-decoration: none;
+
+}
+.menu a:hover{
+  color: gold;
+  transition: .7s;
+}
+
+.logotipo{
+  margin-bottom: 0;
+  margin-left: 470px;
+}
+
+h1{
+  padding-top: 20px;
+  padding-left: 250px;
+  margin-bottom: 3px;
+  font-family:'Kaushan Script', arial;
+}
+
+h2 {
+  padding-bottom: 250px;
+  padding-left: 278px;
+  margin-bottom: 3px;
+  font-family:'Kaushan Script', arial;
+}
+
+.boton1{
+  margin-top: 160px;
+  margin-left: 480px;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 120px;
+  background-color: #F93E3E;
+  font-family: 'Kaushan Script', arial;
+  color: white;
+  cursor: pointer;
+  background: -moz-linear-gradient(top, rgba(214,82,21,0.96) 0%, rgba(207,4,4,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(214,82,21,0.96) 0%,rgba(207,4,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(214,82,21,0.96) 0%,rgba(207,4,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d65215', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+.boton-aprender-mas{
+  margin-bottom: 10px;
+  border-radius: 8px;
+  height: 25px;
+  background-color: #F93E3E;
+  font-family: 'Kaushan Script', arial;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Media{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200;
+}
+
+.footer{
+  background:#020129;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-top: 16px;
+  }
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+}
+
+.formulario{
+  color: white;
+  margin-top: 10px;
+  margin-left: 110px;
+  padding-left: 10px;
+}
+
+.footer .contenedor{
+  font-family: 'Source Sans pro', arial;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.boton3{
+  background-color: #F93E3E;
+  font-family: 'Kaushan Script', arial;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-left: 55px;
+  display: block;
+  cursor: pointer;
+}
+
+.titulo{
+  font-family: 'Source sans pro', arial;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.Info{
+  background-color: #020129;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+}
+
+.Info a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Source sans pro', arial;
+  font-size: 15px;
+}
+
+.Info strong{
+border-right:50px;
+}
+
+.Social{
+  text-align: right;
+  margin-top: -200px;
+  color: white;
+  padding-right:0px;
+}
+
+.formulario{
+display: block;
+margin-left: 280px;
+margin-top: -90px;
+}
+
+.offer{
+  display: flex;
+}
+
+.text1{
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: center;
+  }
+
+.icon{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.titulo{
+  color: blue;
+  margin-top: 50px;
+  display: block;
+}
+.hoteles{
+  display:flex;
+  margin-bottom: 50px;
+}
+
+.logo{
+  margin-right: 35px;
+}
+
+.suburban img{
+  position: relative;
+  bottom: 550px;
+}
+
+.transit{
+  float: right;
+}
+.transit img{
+  position: relative;
+  bottom: 812px;
+}
